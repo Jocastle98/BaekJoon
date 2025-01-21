@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int main() {
+int main_2051() {
     int N, K;
     cin >> N >> K;
 
@@ -23,5 +23,5 @@ int main() {
         cout << 0 << endl;
     }
 
-    return 0;
+	return 0;
 }
