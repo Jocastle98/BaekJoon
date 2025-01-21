@@ -6,7 +6,7 @@ int main() {
     int N, K;
     cin >> N >> K;
 
-    vector<int> divisors; 
+    vector<int> divisors;
 
 
     for (int i = 1; i <= N; i++) {
@@ -17,7 +17,7 @@ int main() {
 
 
     if (K <= divisors.size()) {
-        cout << divisors[K - 1] << endl; 
+        cout << divisors[K - 1] << endl;
     }
     else {
         cout << 0 << endl;
