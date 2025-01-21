@@ -197,6 +197,7 @@ nCrunchTemp_*
 AutoTest.Net/
 
 # Visual Studio 프로젝트 파일 무시
+*.sln
 *.vcxproj
 *.vcxproj.*
 
